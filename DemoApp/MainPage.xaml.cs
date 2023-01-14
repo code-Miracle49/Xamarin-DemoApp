@@ -34,6 +34,7 @@ namespace DemoApp
         void Button2_Clicked(System.Object sender, System.EventArgs e)
         {
             timervalue = false; //Stop Timer
+            DisplayAlert("Alert", "Auto Update Stopped", "Ok");
         }
 
         void GetData()
